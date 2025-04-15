@@ -2,7 +2,6 @@ import {Meta, StoryObj} from "@storybook/react";
 import { fn } from "@storybook/test";
 import {action } from "@storybook/addon-actions";
 import {Button} from "./Button";
-import { ActivateAccountNotifierPage } from "@/pages/activate-account-notifier";
 
 const buttonMeta:Meta<typeof Button> = {
     title: "Button",
